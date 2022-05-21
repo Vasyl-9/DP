@@ -1,0 +1,2 @@
+if (Functions.contains payload "stdapi") && (tcpflags2 = "SA") then print_endline (ipdst^" exploits Standard API on the victim machine "^ipsrc);
+(Functions.contains payload "stdapi") && (tcpflags2 = "SA")

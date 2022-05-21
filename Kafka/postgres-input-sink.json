@@ -1,0 +1,38 @@
+{
+  "name": "postgres-input-sink",
+  "config": {
+    "name": "postgres-input-sink",
+    "tasks.max": "1",
+    "connector.class": "io.confluent.connect.jdbc.JdbcSinkConnector",
+    "topics": "local_security_incident",
+
+    "key.converter": "org.apache.kafka.connect.storage.StringConverter",
+    "value.converter": "io.confluent.connect.avro.AvroConverter",
+    "key.converter.schemas.enable": "false",
+    "value.converter.schema.registry.url": "http://schema-registry:8081",
+
+    "connection.url": "jdbc:postgresql://postgres:5432/Kafka",
+    "connection.user": "vasyl",
+    "connection.password": "vasyl",
+
+    "insert.mode": "insert",
+    "auto.create": "false",
+    "auto.evolve": "false",
+
+    "parse.key": "true",
+    "errors.tolerance": "none",
+    "errors.log.enable": "true",
+
+    "pk.mode": "none",
+
+    "transforms": "insertPartition,insertOffset,insertTopic",
+    "transforms.insertPartition.type": "org.apache.kafka.connect.transforms.InsertField$Value",
+    "transforms.insertPartition.partition.field": "kafka_partition",
+
+    "transforms.insertOffset.type": "org.apache.kafka.connect.transforms.InsertField$Value",
+    "transforms.insertOffset.offset.field": "kafka_offset",
+
+    "transforms.insertTopic.type": "org.apache.kafka.connect.transforms.InsertField$Value",
+    "transforms.insertTopic.topic.field": "kafka_topic"
+  }
+}

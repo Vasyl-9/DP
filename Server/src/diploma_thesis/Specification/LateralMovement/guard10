@@ -1,0 +1,3 @@
+if (addr_dst = ipdst) && (Functions.contains cmdline "reg  \\(delete\\|add\\|load\\|copy\\|save\\|query\\)")  then print_endline ("Alert registry modification - cmdline="^cmdline);
+
+(addr_dst = ipdst) && (Functions.contains cmdline "reg  \\(delete\\|add\\|load\\|copy\\|save\\|query\\)")

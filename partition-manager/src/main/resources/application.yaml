@@ -1,0 +1,24 @@
+spring:
+  kafka:
+    producer:
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+    consumer:
+      value-deserializer: org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/Kafka
+    username: vasyl
+    password: vasyl
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQL81Dialect
+
+app:
+  kafka:
+    topic-name: "local_security_incident"
+    bootstrap-servers: "127.0.0.1:9092"

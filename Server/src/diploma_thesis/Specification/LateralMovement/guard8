@@ -1,0 +1,7 @@
+if (addr_dst = ipdst) && ((Functions.contains cmdline "john") 
+|| (Functions.contains image "unshadow")
+|| (Functions.contains image "\\(mimikatz\\|mimilove\\)"))  then print_endline ("Alert pass the hash/ticket attempts - cmdline="^cmdline^",image="^image);
+
+(addr_dst = ipdst) && ((Functions.contains cmdline "john") 
+|| (Functions.contains image "unshadow")
+|| (Functions.contains image "\\(mimikatz\\|mimilove\\)"))

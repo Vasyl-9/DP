@@ -1,0 +1,11 @@
+if (Functions.contains event "Network Connection")
+&& (proto = "tcp") 
+&& (addr_src = ip) 
+&& (Functions.set_contains [80;443;444;445;4444] port_dst)
+&& not (Functions.isnull addr_dst) then print_endline ("Alert '"^image^"' suspicious connection to "^addr_dst^" on port "^port_dst);
+
+(Functions.contains event "Network Connection")
+&& (proto = "tcp") 
+&& (addr_src = ip) 
+&& (Functions.set_contains [80;443;444;445;4444] port_dst)
+&& not (Functions.isnull addr_dst)

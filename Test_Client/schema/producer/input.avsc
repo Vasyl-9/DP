@@ -1,0 +1,19 @@
+{
+  "namespace": "io.dp.vasyl",
+  "type": "record",
+  "name": "Input",
+  "fields": [
+    {
+      "name": "data",
+      "type": "string"
+    },
+    {
+      "name": "session_id",
+      "type": "string"
+    },
+    {
+      "name": "user_id",
+      "type": "string"
+    }
+  ]
+}

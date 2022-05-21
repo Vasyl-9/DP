@@ -1,0 +1,1661 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Events>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>22</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>22</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-19T21:14:45.0248662Z'/>
+            <EventRecordID>3006</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='13372' ThreadID='13460'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-19 21:14:43.030</Data>
+            <Data Name='ProcessGuid'>{f03562c7-1e74-625f-0925-000000004e00}</Data>
+            <Data Name='ProcessId'>3856</Data>
+            <Data Name='QueryName'>femetrics.grammarly.io</Data>
+            <Data Name='QueryStatus'>0</Data>
+            <Data Name='QueryResults'>
+                ::ffff:34.224.198.24;::ffff:34.200.68.219;::ffff:34.194.144.219;::ffff:3.223.163.144;::ffff:44.197.74.152;::ffff:3.219.133.236;::ffff:52.202.55.19;::ffff:3.94.151.22;
+            </Data>
+            <Data Name='Image'>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</Data>
+            <Data Name='User'>N6\vklevlanyk</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>5</EventID>
+            <Version>3</Version>
+            <Level>4</Level>
+            <Task>5</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-19T21:14:00.5874570Z'/>
+            <EventRecordID>3005</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='13372' ThreadID='6928'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-19 21:14:00.586</Data>
+            <Data Name='ProcessGuid'>{f03562c7-2618-625f-f025-000000004e00}</Data>
+            <Data Name='ProcessId'>8020</Data>
+            <Data Name='Image'>
+                C:\Users\vklevlanyk\Downloads\SysmonSimulator\x64\Release\SysmonSimulator.exe
+            </Data>
+            <Data Name='User'>N6\vklevlanyk</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>2</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>2</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-19T21:14:00.5851096Z'/>
+            <EventRecordID>3004</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='13372' ThreadID='6928'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>T1099</Data>
+            <Data Name='UtcTime'>2022-04-19 21:14:00.584</Data>
+            <Data Name='ProcessGuid'>{f03562c7-2618-625f-f025-000000004e00}</Data>
+            <Data Name='ProcessId'>8020</Data>
+            <Data Name='Image'>
+                C:\Users\vklevlanyk\Downloads\SysmonSimulator\x64\Release\SysmonSimulator.exe
+            </Data>
+            <Data Name='TargetFilename'>
+                C:\Users\vklevlanyk\Downloads\SysmonSimulator\x64\Release\SysmonCreateFileTime.txt
+            </Data>
+            <Data Name='CreationUtcTime'>1601-01-01 00:05:39.496</Data>
+            <Data Name='PreviousCreationUtcTime'>2022-04-19 21:14:00.584</Data>
+            <Data Name='User'>N6\vklevlanyk</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>11</EventID>
+            <Version>2</Version>
+            <Level>4</Level>
+            <Task>11</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-19T21:14:00.5848715Z'/>
+            <EventRecordID>3003</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='13372' ThreadID='6928'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>Downloads</Data>
+            <Data Name='UtcTime'>2022-04-19 21:14:00.584</Data>
+            <Data Name='ProcessGuid'>{f03562c7-2618-625f-f025-000000004e00}</Data>
+            <Data Name='ProcessId'>8020</Data>
+            <Data Name='Image'>
+                C:\Users\vklevlanyk\Downloads\SysmonSimulator\x64\Release\SysmonSimulator.exe
+            </Data>
+            <Data Name='TargetFilename'>
+                C:\Users\vklevlanyk\Downloads\SysmonSimulator\x64\Release\SysmonCreateFileTime.txt
+            </Data>
+            <Data Name='CreationUtcTime'>2022-04-19 21:14:00.584</Data>
+            <Data Name='User'>N6\vklevlanyk</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>1</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>1</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-19T21:14:00.5750634Z'/>
+            <EventRecordID>3002</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='13372' ThreadID='6928'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-19 21:14:00.573</Data>
+            <Data Name='ProcessGuid'>{f03562c7-2618-625f-f025-000000004e00}</Data>
+            <Data Name='ProcessId'>8020</Data>
+            <Data Name='Image'>
+                C:\Users\vklevlanyk\Downloads\SysmonSimulator\x64\Release\SysmonSimulator.exe
+            </Data>
+            <Data Name='FileVersion'>-</Data>
+            <Data Name='Description'>-</Data>
+            <Data Name='Product'>-</Data>
+            <Data Name='Company'>-</Data>
+            <Data Name='OriginalFileName'>-</Data>
+            <Data Name='CommandLine'>.\SysmonSimulator.exe -eid 2</Data>
+            <Data Name='CurrentDirectory'>
+                C:\Users\vklevlanyk\Downloads\SysmonSimulator\x64\Release\
+            </Data>
+            <Data Name='User'>N6\vklevlanyk</Data>
+            <Data Name='LogonGuid'>{f03562c7-5220-625e-ffd8-3c0c00000000}</Data>
+            <Data Name='LogonId'>0xc3cd8ff</Data>
+            <Data Name='TerminalSessionId'>6</Data>
+            <Data Name='IntegrityLevel'>High</Data>
+            <Data Name='Hashes'>
+                MD5=D83FFEDA3FF07B21BCF7C3D96B8F36E9,SHA256=E1B6247E5DEB1DD132E2448A2B4429C28C970C5908BC3FCECDC85E01E37BD929,IMPHASH=6B2DB96D831885C52343F890E30DD6FC
+            </Data>
+            <Data Name='ParentProcessGuid'>{f03562c7-25bd-625f-e725-000000004e00}</Data>
+            <Data Name='ParentProcessId'>12852</Data>
+            <Data Name='ParentImage'>C:\Windows\System32\cmd.exe</Data>
+            <Data Name='ParentCommandLine'>"C:\WINDOWS\system32\cmd.exe"</Data>
+            <Data Name='ParentUser'>N6\vklevlanyk</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>5</EventID>
+            <Version>3</Version>
+            <Level>4</Level>
+            <Task>5</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-19T21:13:58.4407335Z'/>
+            <EventRecordID>3001</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='13372' ThreadID='6928'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-19 21:13:58.440</Data>
+            <Data Name='ProcessGuid'>{f03562c7-2616-625f-ee25-000000004e00}</Data>
+            <Data Name='ProcessId'>888</Data>
+            <Data Name='Image'>
+                C:\Users\vklevlanyk\Downloads\SysmonSimulator\x64\Release\SysmonSimulator.exe
+            </Data>
+            <Data Name='User'>N6\vklevlanyk</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>1</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>1</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-19T21:13:58.4390766Z'/>
+            <EventRecordID>3000</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='13372' ThreadID='6928'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-19 21:13:58.437</Data>
+            <Data Name='ProcessGuid'>{f03562c7-2616-625f-ef25-000000004e00}</Data>
+            <Data Name='ProcessId'>14348</Data>
+            <Data Name='Image'>C:\Windows\System32\wbem\WMIC.exe</Data>
+            <Data Name='FileVersion'>10.0.19041.1566 (WinBuild.160101.0800)</Data>
+            <Data Name='Description'>WMI Commandline Utility</Data>
+            <Data Name='Product'>Microsoft® Windows® Operating System</Data>
+            <Data Name='Company'>Microsoft Corporation</Data>
+            <Data Name='OriginalFileName'>wmic.exe</Data>
+            <Data Name='CommandLine'>C:\Windows\System32\wbem\WMIC.exe</Data>
+            <Data Name='CurrentDirectory'>
+                C:\Users\vklevlanyk\Downloads\SysmonSimulator\x64\Release\
+            </Data>
+            <Data Name='User'>N6\vklevlanyk</Data>
+            <Data Name='LogonGuid'>{f03562c7-5220-625e-ffd8-3c0c00000000}</Data>
+            <Data Name='LogonId'>0xc3cd8ff</Data>
+            <Data Name='TerminalSessionId'>6</Data>
+            <Data Name='IntegrityLevel'>High</Data>
+            <Data Name='Hashes'>
+                MD5=631D1967C3065C581A78CC873DDA08F6,SHA256=77F600A11B1D9E96C274E1AB4D6ACEC97255CB504EF25975AC34597BC57F8ADF,IMPHASH=527C7C66CDD13D72D793BCA3A417BCBE
+            </Data>
+            <Data Name='ParentProcessGuid'>{f03562c7-2616-625f-ee25-000000004e00}</Data>
+            <Data Name='ParentProcessId'>888</Data>
+            <Data Name='ParentImage'>
+                C:\Users\vklevlanyk\Downloads\SysmonSimulator\x64\Release\SysmonSimulator.exe
+            </Data>
+            <Data Name='ParentCommandLine'>.\SysmonSimulator.exe -eid 1</Data>
+            <Data Name='ParentUser'>N6\vklevlanyk</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>1</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>1</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-19T21:13:58.4298902Z'/>
+            <EventRecordID>2999</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='13372' ThreadID='6928'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-19 21:13:58.428</Data>
+            <Data Name='ProcessGuid'>{f03562c7-2616-625f-ee25-000000004e00}</Data>
+            <Data Name='ProcessId'>888</Data>
+            <Data Name='Image'>
+                C:\Users\vklevlanyk\Downloads\SysmonSimulator\x64\Release\SysmonSimulator.exe
+            </Data>
+            <Data Name='FileVersion'>-</Data>
+            <Data Name='Description'>-</Data>
+            <Data Name='Product'>-</Data>
+            <Data Name='Company'>-</Data>
+            <Data Name='OriginalFileName'>-</Data>
+            <Data Name='CommandLine'>.\SysmonSimulator.exe -eid 1</Data>
+            <Data Name='CurrentDirectory'>
+                C:\Users\vklevlanyk\Downloads\SysmonSimulator\x64\Release\
+            </Data>
+            <Data Name='User'>N6\vklevlanyk</Data>
+            <Data Name='LogonGuid'>{f03562c7-5220-625e-ffd8-3c0c00000000}</Data>
+            <Data Name='LogonId'>0xc3cd8ff</Data>
+            <Data Name='TerminalSessionId'>6</Data>
+            <Data Name='IntegrityLevel'>High</Data>
+            <Data Name='Hashes'>
+                MD5=D83FFEDA3FF07B21BCF7C3D96B8F36E9,SHA256=E1B6247E5DEB1DD132E2448A2B4429C28C970C5908BC3FCECDC85E01E37BD929,IMPHASH=6B2DB96D831885C52343F890E30DD6FC
+            </Data>
+            <Data Name='ParentProcessGuid'>{f03562c7-25bd-625f-e725-000000004e00}</Data>
+            <Data Name='ParentProcessId'>12852</Data>
+            <Data Name='ParentImage'>C:\Windows\System32\cmd.exe</Data>
+            <Data Name='ParentCommandLine'>"C:\WINDOWS\system32\cmd.exe"</Data>
+            <Data Name='ParentUser'>N6\vklevlanyk</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>1</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>1</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:24:51.1944318Z'/>
+            <EventRecordID>148</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='9816'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:24:51.193</Data>
+            <Data Name='ProcessGuid'>{f03562c7-1523-625c-b715-000000004e00}</Data>
+            <Data Name='ProcessId'>14820</Data>
+            <Data Name='Image'>C:\Windows\System32\SearchFilterHost.exe</Data>
+            <Data Name='FileVersion'>7.0.19041.1620 (WinBuild.160101.0800)</Data>
+            <Data Name='Description'>Microsoft Windows Search Filter Host</Data>
+            <Data Name='Product'>Windows® Search</Data>
+            <Data Name='Company'>Microsoft Corporation</Data>
+            <Data Name='OriginalFileName'>SearchFilterHost.exe</Data>
+            <Data Name='CommandLine'>"C:\WINDOWS\system32\SearchFilterHost.exe" 0 808 812 820 8192
+                816 792
+            </Data>
+            <Data Name='CurrentDirectory'>C:\WINDOWS\system32\</Data>
+            <Data Name='User'>NT AUTHORITY\SYSTEM</Data>
+            <Data Name='LogonGuid'>{f03562c7-5a35-6256-e703-000000000000}</Data>
+            <Data Name='LogonId'>0x3e7</Data>
+            <Data Name='TerminalSessionId'>0</Data>
+            <Data Name='IntegrityLevel'>Medium</Data>
+            <Data Name='Hashes'>
+                SHA256=3E43B8605B1B2495FE90A43856AA9A63030955936A828BE395578CBB6F2864F4
+            </Data>
+            <Data Name='ParentProcessGuid'>{f03562c7-d62d-6259-cc11-000000004e00}</Data>
+            <Data Name='ParentProcessId'>6948</Data>
+            <Data Name='ParentImage'>C:\Windows\System32\SearchIndexer.exe</Data>
+            <Data Name='ParentCommandLine'>C:\WINDOWS\system32\SearchIndexer.exe /Embedding</Data>
+            <Data Name='ParentUser'>NT AUTHORITY\SYSTEM</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>1</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>1</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:24:51.1716563Z'/>
+            <EventRecordID>147</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='9816'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:24:51.169</Data>
+            <Data Name='ProcessGuid'>{f03562c7-1523-625c-b615-000000004e00}</Data>
+            <Data Name='ProcessId'>5964</Data>
+            <Data Name='Image'>C:\Windows\System32\SearchProtocolHost.exe</Data>
+            <Data Name='FileVersion'>7.0.19041.1620 (WinBuild.160101.0800)</Data>
+            <Data Name='Description'>Microsoft Windows Search Protocol Host</Data>
+            <Data Name='Product'>Windows® Search</Data>
+            <Data Name='Company'>Microsoft Corporation</Data>
+            <Data Name='OriginalFileName'>SearchProtocolHost.exe</Data>
+            <Data Name='CommandLine'>"C:\WINDOWS\system32\SearchProtocolHost.exe"
+                Global\UsGthrFltPipeMssGthrPipe14_ Global\UsGthrCtrlFltPipeMssGthrPipe14 1
+                -2147483646 "Software\Microsoft\Windows Search" "Mozilla/4.0 (compatible; MSIE 6.0;
+                Windows NT; MS Search 4.0 Robot)"
+                "C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc" "DownLevelDaemon"
+            </Data>
+            <Data Name='CurrentDirectory'>C:\WINDOWS\system32\</Data>
+            <Data Name='User'>NT AUTHORITY\SYSTEM</Data>
+            <Data Name='LogonGuid'>{f03562c7-5a35-6256-e703-000000000000}</Data>
+            <Data Name='LogonId'>0x3e7</Data>
+            <Data Name='TerminalSessionId'>0</Data>
+            <Data Name='IntegrityLevel'>System</Data>
+            <Data Name='Hashes'>
+                SHA256=7297E82A25A4ED4F967766C6FE2DA8DEAA2293AC5C3D82308EDDC154CA0A0203
+            </Data>
+            <Data Name='ParentProcessGuid'>{f03562c7-d62d-6259-cc11-000000004e00}</Data>
+            <Data Name='ParentProcessId'>6948</Data>
+            <Data Name='ParentImage'>C:\Windows\System32\SearchIndexer.exe</Data>
+            <Data Name='ParentCommandLine'>C:\WINDOWS\system32\SearchIndexer.exe /Embedding</Data>
+            <Data Name='ParentUser'>NT AUTHORITY\SYSTEM</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>3</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>3</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:24:33.2716993Z'/>
+            <EventRecordID>146</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='4936'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:24:30.174</Data>
+            <Data Name='ProcessGuid'>{f03562c7-5a33-6256-eb03-000000000000}</Data>
+            <Data Name='ProcessId'>4</Data>
+            <Data Name='Image'>System</Data>
+            <Data Name='User'>NT AUTHORITY\SYSTEM</Data>
+            <Data Name='Protocol'>udp</Data>
+            <Data Name='Initiated'>true</Data>
+            <Data Name='SourceIsIpv6'>false</Data>
+            <Data Name='SourceIp'>192.168.0.113</Data>
+            <Data Name='SourceHostname'>N6.Home</Data>
+            <Data Name='SourcePort'>137</Data>
+            <Data Name='SourcePortName'>netbios-ns</Data>
+            <Data Name='DestinationIsIpv6'>false</Data>
+            <Data Name='DestinationIp'>13.69.239.74</Data>
+            <Data Name='DestinationHostname'>-</Data>
+            <Data Name='DestinationPort'>137</Data>
+            <Data Name='DestinationPortName'>netbios-ns</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>5</EventID>
+            <Version>3</Version>
+            <Level>4</Level>
+            <Task>5</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:24:33.1009041Z'/>
+            <EventRecordID>145</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='9816'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:24:33.099</Data>
+            <Data Name='ProcessGuid'>{f03562c7-150b-625c-b215-000000004e00}</Data>
+            <Data Name='ProcessId'>3736</Data>
+            <Data Name='Image'>
+                C:\Users\vklevlanyk\AppData\Local\Microsoft\OneDrive\22.055.0313.0001\FileCoAuth.exe
+            </Data>
+            <Data Name='User'>N6\vklevlanyk</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>3</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>3</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:24:30.2161245Z'/>
+            <EventRecordID>144</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='4936'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:24:28.159</Data>
+            <Data Name='ProcessGuid'>{f03562c7-150b-625c-b215-000000004e00}</Data>
+            <Data Name='ProcessId'>3736</Data>
+            <Data Name='Image'>
+                C:\Users\vklevlanyk\AppData\Local\Microsoft\OneDrive\22.055.0313.0001\FileCoAuth.exe
+            </Data>
+            <Data Name='User'>N6\vklevlanyk</Data>
+            <Data Name='Protocol'>tcp</Data>
+            <Data Name='Initiated'>true</Data>
+            <Data Name='SourceIsIpv6'>false</Data>
+            <Data Name='SourceIp'>192.168.0.113</Data>
+            <Data Name='SourceHostname'>N6.Home</Data>
+            <Data Name='SourcePort'>54876</Data>
+            <Data Name='SourcePortName'>-</Data>
+            <Data Name='DestinationIsIpv6'>false</Data>
+            <Data Name='DestinationIp'>13.69.239.74</Data>
+            <Data Name='DestinationHostname'>-</Data>
+            <Data Name='DestinationPort'>443</Data>
+            <Data Name='DestinationPortName'>https</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>1</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>1</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:24:28.2699265Z'/>
+            <EventRecordID>143</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='9816'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:24:28.268</Data>
+            <Data Name='ProcessGuid'>{f03562c7-150c-625c-b515-000000004e00}</Data>
+            <Data Name='ProcessId'>7784</Data>
+            <Data Name='Image'>C:\Windows\System32\svchost.exe</Data>
+            <Data Name='FileVersion'>10.0.19041.1566 (WinBuild.160101.0800)</Data>
+            <Data Name='Description'>Host Process for Windows Services</Data>
+            <Data Name='Product'>Microsoft® Windows® Operating System</Data>
+            <Data Name='Company'>Microsoft Corporation</Data>
+            <Data Name='OriginalFileName'>svchost.exe</Data>
+            <Data Name='CommandLine'>C:\WINDOWS\system32\svchost.exe -k wusvcs -p -s WaaSMedicSvc
+            </Data>
+            <Data Name='CurrentDirectory'>C:\WINDOWS\system32\</Data>
+            <Data Name='User'>NT AUTHORITY\SYSTEM</Data>
+            <Data Name='LogonGuid'>{f03562c7-5a35-6256-e703-000000000000}</Data>
+            <Data Name='LogonId'>0x3e7</Data>
+            <Data Name='TerminalSessionId'>0</Data>
+            <Data Name='IntegrityLevel'>System</Data>
+            <Data Name='Hashes'>
+                SHA256=F3FEB95E7BCFB0766A694D93FCA29EDA7E2CA977C2395B4BE75242814EB6D881
+            </Data>
+            <Data Name='ParentProcessGuid'>{00000000-0000-0000-0000-000000000000}</Data>
+            <Data Name='ParentProcessId'>104</Data>
+            <Data Name='ParentImage'>-</Data>
+            <Data Name='ParentCommandLine'>-</Data>
+            <Data Name='ParentUser'>-</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>5</EventID>
+            <Version>3</Version>
+            <Level>4</Level>
+            <Task>5</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:24:27.5310508Z'/>
+            <EventRecordID>142</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='9816'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:24:27.530</Data>
+            <Data Name='ProcessGuid'>{f03562c7-150b-625c-b415-000000004e00}</Data>
+            <Data Name='ProcessId'>11248</Data>
+            <Data Name='Image'>C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+            <Data Name='User'>N6\vklevlanyk</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>5</EventID>
+            <Version>3</Version>
+            <Level>4</Level>
+            <Task>5</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:24:27.5240079Z'/>
+            <EventRecordID>141</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='9816'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:24:27.523</Data>
+            <Data Name='ProcessGuid'>{f03562c7-150b-625c-b315-000000004e00}</Data>
+            <Data Name='ProcessId'>9036</Data>
+            <Data Name='Image'>C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+            <Data Name='User'>N6\vklevlanyk</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>1</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>1</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:24:27.2490070Z'/>
+            <EventRecordID>140</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='9816'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:24:27.247</Data>
+            <Data Name='ProcessGuid'>{f03562c7-150b-625c-b415-000000004e00}</Data>
+            <Data Name='ProcessId'>11248</Data>
+            <Data Name='Image'>C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+            <Data Name='FileVersion'>100.0.1185.44</Data>
+            <Data Name='Description'>Microsoft Edge</Data>
+            <Data Name='Product'>Microsoft Edge</Data>
+            <Data Name='Company'>Microsoft Corporation</Data>
+            <Data Name='OriginalFileName'>msedge.exe</Data>
+            <Data Name='CommandLine'>"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+                --type=crashpad-handler
+                "--user-data-dir=C:\Users\vklevlanyk\AppData\Local\Microsoft\Edge\User Data"
+                /prefetch:7 --monitor-self-annotation=ptype=crashpad-handler
+                "--database=C:\Users\vklevlanyk\AppData\Local\Microsoft\Edge\User Data\Crashpad"
+                "--metrics-dir=C:\Users\vklevlanyk\AppData\Local\Microsoft\Edge\User Data"
+                --annotation=IsOfficialBuild=1 --annotation=channel=
+                --annotation=chromium-version=100.0.4896.127 "--annotation=exe=C:\Program Files
+                (x86)\Microsoft\Edge\Application\msedge.exe" --annotation=plat=Win64
+                "--annotation=prod=Microsoft Edge" --annotation=ver=100.0.1185.44
+                --initial-client-data=0x110,0x114,0x118,0xf0,0x11c,0x7fff86dbd840,0x7fff86dbd850,0x7fff86dbd860
+            </Data>
+            <Data Name='CurrentDirectory'>C:\Program Files (x86)\Microsoft\Edge\Application\</Data>
+            <Data Name='User'>N6\vklevlanyk</Data>
+            <Data Name='LogonGuid'>{f03562c7-d938-625b-2d3d-d20700000000}</Data>
+            <Data Name='LogonId'>0x7d23d2d</Data>
+            <Data Name='TerminalSessionId'>4</Data>
+            <Data Name='IntegrityLevel'>Medium</Data>
+            <Data Name='Hashes'>
+                SHA256=AA6CC720AACDEDE3CEA7EBC1D5EBACF8BFD5497A17B89366798214746181060A
+            </Data>
+            <Data Name='ParentProcessGuid'>{f03562c7-150b-625c-b315-000000004e00}</Data>
+            <Data Name='ParentProcessId'>9036</Data>
+            <Data Name='ParentImage'>C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+            </Data>
+            <Data Name='ParentCommandLine'>"C:\Program Files
+                (x86)\Microsoft\Edge\Application\msedge.exe" --default-search-provider=?
+                --out-pipe-name=MSEdgeDefaultc3dc5aabh3ad5h4e96h8086h2eae1330c3c9
+            </Data>
+            <Data Name='ParentUser'>N6\vklevlanyk</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>1</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>1</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:24:27.2155855Z'/>
+            <EventRecordID>139</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='9816'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:24:27.194</Data>
+            <Data Name='ProcessGuid'>{f03562c7-150b-625c-b315-000000004e00}</Data>
+            <Data Name='ProcessId'>9036</Data>
+            <Data Name='Image'>C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+            <Data Name='FileVersion'>100.0.1185.44</Data>
+            <Data Name='Description'>Microsoft Edge</Data>
+            <Data Name='Product'>Microsoft Edge</Data>
+            <Data Name='Company'>Microsoft Corporation</Data>
+            <Data Name='OriginalFileName'>msedge.exe</Data>
+            <Data Name='CommandLine'>"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+                --default-search-provider=?
+                --out-pipe-name=MSEdgeDefaultc3dc5aabh3ad5h4e96h8086h2eae1330c3c9
+            </Data>
+            <Data Name='CurrentDirectory'>C:\Windows\ImmersiveControlPanel\</Data>
+            <Data Name='User'>N6\vklevlanyk</Data>
+            <Data Name='LogonGuid'>{f03562c7-d938-625b-2d3d-d20700000000}</Data>
+            <Data Name='LogonId'>0x7d23d2d</Data>
+            <Data Name='TerminalSessionId'>4</Data>
+            <Data Name='IntegrityLevel'>Medium</Data>
+            <Data Name='Hashes'>
+                SHA256=AA6CC720AACDEDE3CEA7EBC1D5EBACF8BFD5497A17B89366798214746181060A
+            </Data>
+            <Data Name='ParentProcessGuid'>{f03562c7-d939-625b-7c12-000000004e00}</Data>
+            <Data Name='ParentProcessId'>12032</Data>
+            <Data Name='ParentImage'>C:\Windows\System32\sihost.exe</Data>
+            <Data Name='ParentCommandLine'>sihost.exe</Data>
+            <Data Name='ParentUser'>N6\vklevlanyk</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>1</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>1</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:24:27.0228554Z'/>
+            <EventRecordID>138</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='9816'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:24:27.015</Data>
+            <Data Name='ProcessGuid'>{f03562c7-150b-625c-b215-000000004e00}</Data>
+            <Data Name='ProcessId'>3736</Data>
+            <Data Name='Image'>
+                C:\Users\vklevlanyk\AppData\Local\Microsoft\OneDrive\22.055.0313.0001\FileCoAuth.exe
+            </Data>
+            <Data Name='FileVersion'>22.055.0313.0001</Data>
+            <Data Name='Description'>Microsoft OneDriveFile Co-Authoring Executable</Data>
+            <Data Name='Product'>Microsoft OneDrive</Data>
+            <Data Name='Company'>Microsoft Corporation</Data>
+            <Data Name='OriginalFileName'>FileCoAuth.exe</Data>
+            <Data Name='CommandLine'>
+                "C:\Users\vklevlanyk\AppData\Local\Microsoft\OneDrive\22.055.0313.0001\FileCoAuth.exe"
+                -Embedding
+            </Data>
+            <Data Name='CurrentDirectory'>C:\WINDOWS\system32\</Data>
+            <Data Name='User'>N6\vklevlanyk</Data>
+            <Data Name='LogonGuid'>{f03562c7-d938-625b-2d3d-d20700000000}</Data>
+            <Data Name='LogonId'>0x7d23d2d</Data>
+            <Data Name='TerminalSessionId'>4</Data>
+            <Data Name='IntegrityLevel'>Medium</Data>
+            <Data Name='Hashes'>
+                SHA256=89836DC743EF70E1AFCDF79E828E5FE1E17672B5A811EF50EC837A5BCDF2C86B
+            </Data>
+            <Data Name='ParentProcessGuid'>{00000000-0000-0000-0000-000000000000}</Data>
+            <Data Name='ParentProcessId'>1164</Data>
+            <Data Name='ParentImage'>-</Data>
+            <Data Name='ParentCommandLine'>-</Data>
+            <Data Name='ParentUser'>-</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>1</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>1</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:24:26.9872674Z'/>
+            <EventRecordID>137</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='9816'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:24:26.985</Data>
+            <Data Name='ProcessGuid'>{f03562c7-150a-625c-b115-000000004e00}</Data>
+            <Data Name='ProcessId'>15196</Data>
+            <Data Name='Image'>C:\Windows\System32\svchost.exe</Data>
+            <Data Name='FileVersion'>10.0.19041.1566 (WinBuild.160101.0800)</Data>
+            <Data Name='Description'>Host Process for Windows Services</Data>
+            <Data Name='Product'>Microsoft® Windows® Operating System</Data>
+            <Data Name='Company'>Microsoft Corporation</Data>
+            <Data Name='OriginalFileName'>svchost.exe</Data>
+            <Data Name='CommandLine'>C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s wuauserv
+            </Data>
+            <Data Name='CurrentDirectory'>C:\WINDOWS\system32\</Data>
+            <Data Name='User'>NT AUTHORITY\SYSTEM</Data>
+            <Data Name='LogonGuid'>{f03562c7-5a35-6256-e703-000000000000}</Data>
+            <Data Name='LogonId'>0x3e7</Data>
+            <Data Name='TerminalSessionId'>0</Data>
+            <Data Name='IntegrityLevel'>System</Data>
+            <Data Name='Hashes'>
+                SHA256=F3FEB95E7BCFB0766A694D93FCA29EDA7E2CA977C2395B4BE75242814EB6D881
+            </Data>
+            <Data Name='ParentProcessGuid'>{00000000-0000-0000-0000-000000000000}</Data>
+            <Data Name='ParentProcessId'>104</Data>
+            <Data Name='ParentImage'>-</Data>
+            <Data Name='ParentCommandLine'>-</Data>
+            <Data Name='ParentUser'>-</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>1</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>1</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:24:26.5606162Z'/>
+            <EventRecordID>136</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='9816'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:24:26.556</Data>
+            <Data Name='ProcessGuid'>{f03562c7-150a-625c-b015-000000004e00}</Data>
+            <Data Name='ProcessId'>15460</Data>
+            <Data Name='Image'>C:\Windows\ImmersiveControlPanel\SystemSettings.exe</Data>
+            <Data Name='FileVersion'>10.0.19041.1566 (WinBuild.160101.0800)</Data>
+            <Data Name='Description'>Settings</Data>
+            <Data Name='Product'>Microsoft® Windows® Operating System</Data>
+            <Data Name='Company'>Microsoft Corporation</Data>
+            <Data Name='OriginalFileName'>SystemSettings.exe</Data>
+            <Data Name='CommandLine'>"C:\Windows\ImmersiveControlPanel\SystemSettings.exe"
+                -ServerName:microsoft.windows.immersivecontrolpanel
+            </Data>
+            <Data Name='CurrentDirectory'>C:\Windows\ImmersiveControlPanel\</Data>
+            <Data Name='User'>N6\vklevlanyk</Data>
+            <Data Name='LogonGuid'>{f03562c7-d938-625b-2d3d-d20700000000}</Data>
+            <Data Name='LogonId'>0x7d23d2d</Data>
+            <Data Name='TerminalSessionId'>4</Data>
+            <Data Name='IntegrityLevel'>Medium</Data>
+            <Data Name='Hashes'>
+                SHA256=4F04C6E286EBE3C4AB236051D8415CEF3BE5AD9356C5086C4C4187FD52D3B617
+            </Data>
+            <Data Name='ParentProcessGuid'>{00000000-0000-0000-0000-000000000000}</Data>
+            <Data Name='ParentProcessId'>1164</Data>
+            <Data Name='ParentImage'>-</Data>
+            <Data Name='ParentCommandLine'>-</Data>
+            <Data Name='ParentUser'>-</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>3</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>3</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:24:25.3084515Z'/>
+            <EventRecordID>135</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='4936'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:24:23.208</Data>
+            <Data Name='ProcessGuid'>{f03562c7-122c-625c-3215-000000004e00}</Data>
+            <Data Name='ProcessId'>10684</Data>
+            <Data Name='Image'>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</Data>
+            <Data Name='User'>N6\vklevlanyk</Data>
+            <Data Name='Protocol'>tcp</Data>
+            <Data Name='Initiated'>true</Data>
+            <Data Name='SourceIsIpv6'>false</Data>
+            <Data Name='SourceIp'>192.168.0.113</Data>
+            <Data Name='SourceHostname'>N6.Home</Data>
+            <Data Name='SourcePort'>54875</Data>
+            <Data Name='SourcePortName'>-</Data>
+            <Data Name='DestinationIsIpv6'>false</Data>
+            <Data Name='DestinationIp'>172.217.21.163</Data>
+            <Data Name='DestinationHostname'>-</Data>
+            <Data Name='DestinationPort'>443</Data>
+            <Data Name='DestinationPortName'>https</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>3</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>3</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:24:25.3084206Z'/>
+            <EventRecordID>134</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='4936'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:24:23.117</Data>
+            <Data Name='ProcessGuid'>{f03562c7-122c-625c-3215-000000004e00}</Data>
+            <Data Name='ProcessId'>10684</Data>
+            <Data Name='Image'>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</Data>
+            <Data Name='User'>N6\vklevlanyk</Data>
+            <Data Name='Protocol'>udp</Data>
+            <Data Name='Initiated'>true</Data>
+            <Data Name='SourceIsIpv6'>false</Data>
+            <Data Name='SourceIp'>192.168.0.113</Data>
+            <Data Name='SourceHostname'>N6.Home</Data>
+            <Data Name='SourcePort'>49221</Data>
+            <Data Name='SourcePortName'>-</Data>
+            <Data Name='DestinationIsIpv6'>false</Data>
+            <Data Name='DestinationIp'>172.217.21.163</Data>
+            <Data Name='DestinationHostname'>-</Data>
+            <Data Name='DestinationPort'>443</Data>
+            <Data Name='DestinationPortName'>https</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>5</EventID>
+            <Version>3</Version>
+            <Level>4</Level>
+            <Task>5</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:24:24.5329002Z'/>
+            <EventRecordID>133</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='9816'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:24:24.532</Data>
+            <Data Name='ProcessGuid'>{f03562c7-1480-625c-9d15-000000004e00}</Data>
+            <Data Name='ProcessId'>16748</Data>
+            <Data Name='Image'>C:\Windows\System32\SearchFilterHost.exe</Data>
+            <Data Name='User'>NT AUTHORITY\SYSTEM</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>5</EventID>
+            <Version>3</Version>
+            <Level>4</Level>
+            <Task>5</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:24:24.5288616Z'/>
+            <EventRecordID>132</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='9816'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:24:24.528</Data>
+            <Data Name='ProcessGuid'>{f03562c7-1481-625c-9f15-000000004e00}</Data>
+            <Data Name='ProcessId'>11060</Data>
+            <Data Name='Image'>C:\Windows\System32\SearchProtocolHost.exe</Data>
+            <Data Name='User'>N6\vklevlanyk</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>5</EventID>
+            <Version>3</Version>
+            <Level>4</Level>
+            <Task>5</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:24:24.5241825Z'/>
+            <EventRecordID>131</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='9816'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:24:24.523</Data>
+            <Data Name='ProcessGuid'>{f03562c7-13d8-625c-8515-000000004e00}</Data>
+            <Data Name='ProcessId'>4776</Data>
+            <Data Name='Image'>C:\Windows\System32\SearchProtocolHost.exe</Data>
+            <Data Name='User'>NT AUTHORITY\SYSTEM</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>3</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>3</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:24:20.9500129Z'/>
+            <EventRecordID>130</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='4936'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:24:18.703</Data>
+            <Data Name='ProcessGuid'>{f03562c7-122c-625c-3215-000000004e00}</Data>
+            <Data Name='ProcessId'>10684</Data>
+            <Data Name='Image'>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</Data>
+            <Data Name='User'>N6\vklevlanyk</Data>
+            <Data Name='Protocol'>udp</Data>
+            <Data Name='Initiated'>true</Data>
+            <Data Name='SourceIsIpv6'>false</Data>
+            <Data Name='SourceIp'>192.168.0.113</Data>
+            <Data Name='SourceHostname'>N6.Home</Data>
+            <Data Name='SourcePort'>51605</Data>
+            <Data Name='SourcePortName'>-</Data>
+            <Data Name='DestinationIsIpv6'>false</Data>
+            <Data Name='DestinationIp'>142.251.36.68</Data>
+            <Data Name='DestinationHostname'>-</Data>
+            <Data Name='DestinationPort'>443</Data>
+            <Data Name='DestinationPortName'>https</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>3</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>3</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:23:57.7515267Z'/>
+            <EventRecordID>129</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='4936'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:23:55.735</Data>
+            <Data Name='ProcessGuid'>{f03562c7-5a33-6256-eb03-000000000000}</Data>
+            <Data Name='ProcessId'>4</Data>
+            <Data Name='Image'>System</Data>
+            <Data Name='User'>NT AUTHORITY\SYSTEM</Data>
+            <Data Name='Protocol'>udp</Data>
+            <Data Name='Initiated'>true</Data>
+            <Data Name='SourceIsIpv6'>false</Data>
+            <Data Name='SourceIp'>192.168.0.113</Data>
+            <Data Name='SourceHostname'>N6.Home</Data>
+            <Data Name='SourcePort'>137</Data>
+            <Data Name='SourcePortName'>netbios-ns</Data>
+            <Data Name='DestinationIsIpv6'>false</Data>
+            <Data Name='DestinationIp'>192.168.0.100</Data>
+            <Data Name='DestinationHostname'>-</Data>
+            <Data Name='DestinationPort'>137</Data>
+            <Data Name='DestinationPortName'>netbios-ns</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>3</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>3</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:23:57.7515177Z'/>
+            <EventRecordID>128</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='4936'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:23:55.723</Data>
+            <Data Name='ProcessGuid'>{f03562c7-5a33-6256-eb03-000000000000}</Data>
+            <Data Name='ProcessId'>4</Data>
+            <Data Name='Image'>System</Data>
+            <Data Name='User'>NT AUTHORITY\SYSTEM</Data>
+            <Data Name='Protocol'>udp</Data>
+            <Data Name='Initiated'>true</Data>
+            <Data Name='SourceIsIpv6'>false</Data>
+            <Data Name='SourceIp'>192.168.0.95</Data>
+            <Data Name='SourceHostname'>N6</Data>
+            <Data Name='SourcePort'>137</Data>
+            <Data Name='SourcePortName'>netbios-ns</Data>
+            <Data Name='DestinationIsIpv6'>false</Data>
+            <Data Name='DestinationIp'>192.168.0.100</Data>
+            <Data Name='DestinationHostname'>-</Data>
+            <Data Name='DestinationPort'>137</Data>
+            <Data Name='DestinationPortName'>netbios-ns</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>3</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>3</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:23:55.9741243Z'/>
+            <EventRecordID>127</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='4936'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:23:54.446</Data>
+            <Data Name='ProcessGuid'>{f03562c7-122c-625c-2f15-000000004e00}</Data>
+            <Data Name='ProcessId'>8564</Data>
+            <Data Name='Image'>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</Data>
+            <Data Name='User'>N6\vklevlanyk</Data>
+            <Data Name='Protocol'>udp</Data>
+            <Data Name='Initiated'>false</Data>
+            <Data Name='SourceIsIpv6'>true</Data>
+            <Data Name='SourceIp'>ff02:0:0:0:0:0:0:fb</Data>
+            <Data Name='SourceHostname'>-</Data>
+            <Data Name='SourcePort'>5353</Data>
+            <Data Name='SourcePortName'>-</Data>
+            <Data Name='DestinationIsIpv6'>true</Data>
+            <Data Name='DestinationIp'>fe80:0:0:0:1415:322a:f492:b2aa</Data>
+            <Data Name='DestinationHostname'>-</Data>
+            <Data Name='DestinationPort'>5353</Data>
+            <Data Name='DestinationPortName'>-</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>3</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>3</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:23:55.9741167Z'/>
+            <EventRecordID>126</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='4936'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:23:54.446</Data>
+            <Data Name='ProcessGuid'>{f03562c7-5a36-6256-2f00-000000004e00}</Data>
+            <Data Name='ProcessId'>2708</Data>
+            <Data Name='Image'>C:\Windows\System32\svchost.exe</Data>
+            <Data Name='User'>NT AUTHORITY\NETWORK SERVICE</Data>
+            <Data Name='Protocol'>udp</Data>
+            <Data Name='Initiated'>false</Data>
+            <Data Name='SourceIsIpv6'>true</Data>
+            <Data Name='SourceIp'>ff02:0:0:0:0:0:0:fb</Data>
+            <Data Name='SourceHostname'>-</Data>
+            <Data Name='SourcePort'>5353</Data>
+            <Data Name='SourcePortName'>-</Data>
+            <Data Name='DestinationIsIpv6'>true</Data>
+            <Data Name='DestinationIp'>fe80:0:0:0:1415:322a:f492:b2aa</Data>
+            <Data Name='DestinationHostname'>-</Data>
+            <Data Name='DestinationPort'>5353</Data>
+            <Data Name='DestinationPortName'>-</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>3</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>3</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:23:55.9741086Z'/>
+            <EventRecordID>125</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='4936'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:23:54.444</Data>
+            <Data Name='ProcessGuid'>{f03562c7-122c-625c-2f15-000000004e00}</Data>
+            <Data Name='ProcessId'>8564</Data>
+            <Data Name='Image'>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</Data>
+            <Data Name='User'>N6\vklevlanyk</Data>
+            <Data Name='Protocol'>udp</Data>
+            <Data Name='Initiated'>false</Data>
+            <Data Name='SourceIsIpv6'>false</Data>
+            <Data Name='SourceIp'>224.0.0.251</Data>
+            <Data Name='SourceHostname'>-</Data>
+            <Data Name='SourcePort'>5353</Data>
+            <Data Name='SourcePortName'>-</Data>
+            <Data Name='DestinationIsIpv6'>false</Data>
+            <Data Name='DestinationIp'>192.168.0.100</Data>
+            <Data Name='DestinationHostname'>-</Data>
+            <Data Name='DestinationPort'>5353</Data>
+            <Data Name='DestinationPortName'>-</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>3</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>3</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:23:55.9740983Z'/>
+            <EventRecordID>124</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='4936'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:23:54.444</Data>
+            <Data Name='ProcessGuid'>{f03562c7-5a36-6256-2f00-000000004e00}</Data>
+            <Data Name='ProcessId'>2708</Data>
+            <Data Name='Image'>C:\Windows\System32\svchost.exe</Data>
+            <Data Name='User'>NT AUTHORITY\NETWORK SERVICE</Data>
+            <Data Name='Protocol'>udp</Data>
+            <Data Name='Initiated'>false</Data>
+            <Data Name='SourceIsIpv6'>false</Data>
+            <Data Name='SourceIp'>224.0.0.251</Data>
+            <Data Name='SourceHostname'>-</Data>
+            <Data Name='SourcePort'>5353</Data>
+            <Data Name='SourcePortName'>-</Data>
+            <Data Name='DestinationIsIpv6'>false</Data>
+            <Data Name='DestinationIp'>192.168.0.100</Data>
+            <Data Name='DestinationHostname'>-</Data>
+            <Data Name='DestinationPort'>5353</Data>
+            <Data Name='DestinationPortName'>-</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>5</EventID>
+            <Version>3</Version>
+            <Level>4</Level>
+            <Task>5</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:24:24.5329002Z'/>
+            <EventRecordID>133</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='9816'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:24:24.532</Data>
+            <Data Name='ProcessGuid'>{f03562c7-1480-625c-9d15-000000004e00}</Data>
+            <Data Name='ProcessId'>16748</Data>
+            <Data Name='Image'>C:\Windows\System32\SearchFilterHost.exe</Data>
+            <Data Name='User'>NT AUTHORITY\SYSTEM</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>5</EventID>
+            <Version>3</Version>
+            <Level>4</Level>
+            <Task>5</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:24:24.5288616Z'/>
+            <EventRecordID>132</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='9816'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:24:24.528</Data>
+            <Data Name='ProcessGuid'>{f03562c7-1481-625c-9f15-000000004e00}</Data>
+            <Data Name='ProcessId'>11060</Data>
+            <Data Name='Image'>C:\Windows\System32\SearchProtocolHost.exe</Data>
+            <Data Name='User'>N6\vklevlanyk</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>5</EventID>
+            <Version>3</Version>
+            <Level>4</Level>
+            <Task>5</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:24:24.5241825Z'/>
+            <EventRecordID>131</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='9816'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:24:24.523</Data>
+            <Data Name='ProcessGuid'>{f03562c7-13d8-625c-8515-000000004e00}</Data>
+            <Data Name='ProcessId'>4776</Data>
+            <Data Name='Image'>C:\Windows\System32\SearchProtocolHost.exe</Data>
+            <Data Name='User'>NT AUTHORITY\SYSTEM</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>3</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>3</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:24:20.9500129Z'/>
+            <EventRecordID>130</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='4936'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:24:18.703</Data>
+            <Data Name='ProcessGuid'>{f03562c7-122c-625c-3215-000000004e00}</Data>
+            <Data Name='ProcessId'>10684</Data>
+            <Data Name='Image'>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</Data>
+            <Data Name='User'>N6\vklevlanyk</Data>
+            <Data Name='Protocol'>udp</Data>
+            <Data Name='Initiated'>true</Data>
+            <Data Name='SourceIsIpv6'>false</Data>
+            <Data Name='SourceIp'>192.168.0.113</Data>
+            <Data Name='SourceHostname'>N6.Home</Data>
+            <Data Name='SourcePort'>51605</Data>
+            <Data Name='SourcePortName'>-</Data>
+            <Data Name='DestinationIsIpv6'>false</Data>
+            <Data Name='DestinationIp'>142.251.36.68</Data>
+            <Data Name='DestinationHostname'>-</Data>
+            <Data Name='DestinationPort'>443</Data>
+            <Data Name='DestinationPortName'>https</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>3</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>3</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:23:57.7515267Z'/>
+            <EventRecordID>129</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='4936'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:23:55.735</Data>
+            <Data Name='ProcessGuid'>{f03562c7-5a33-6256-eb03-000000000000}</Data>
+            <Data Name='ProcessId'>4</Data>
+            <Data Name='Image'>System</Data>
+            <Data Name='User'>NT AUTHORITY\SYSTEM</Data>
+            <Data Name='Protocol'>udp</Data>
+            <Data Name='Initiated'>true</Data>
+            <Data Name='SourceIsIpv6'>false</Data>
+            <Data Name='SourceIp'>192.168.0.113</Data>
+            <Data Name='SourceHostname'>N6.Home</Data>
+            <Data Name='SourcePort'>137</Data>
+            <Data Name='SourcePortName'>netbios-ns</Data>
+            <Data Name='DestinationIsIpv6'>false</Data>
+            <Data Name='DestinationIp'>192.168.0.100</Data>
+            <Data Name='DestinationHostname'>-</Data>
+            <Data Name='DestinationPort'>137</Data>
+            <Data Name='DestinationPortName'>netbios-ns</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>3</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>3</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:23:57.7515177Z'/>
+            <EventRecordID>128</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='4936'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:23:55.723</Data>
+            <Data Name='ProcessGuid'>{f03562c7-5a33-6256-eb03-000000000000}</Data>
+            <Data Name='ProcessId'>4</Data>
+            <Data Name='Image'>System</Data>
+            <Data Name='User'>NT AUTHORITY\SYSTEM</Data>
+            <Data Name='Protocol'>udp</Data>
+            <Data Name='Initiated'>true</Data>
+            <Data Name='SourceIsIpv6'>false</Data>
+            <Data Name='SourceIp'>192.168.0.95</Data>
+            <Data Name='SourceHostname'>N6</Data>
+            <Data Name='SourcePort'>137</Data>
+            <Data Name='SourcePortName'>netbios-ns</Data>
+            <Data Name='DestinationIsIpv6'>false</Data>
+            <Data Name='DestinationIp'>192.168.0.100</Data>
+            <Data Name='DestinationHostname'>-</Data>
+            <Data Name='DestinationPort'>137</Data>
+            <Data Name='DestinationPortName'>netbios-ns</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>3</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>3</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:23:55.9741243Z'/>
+            <EventRecordID>127</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='4936'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:23:54.446</Data>
+            <Data Name='ProcessGuid'>{f03562c7-122c-625c-2f15-000000004e00}</Data>
+            <Data Name='ProcessId'>8564</Data>
+            <Data Name='Image'>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</Data>
+            <Data Name='User'>N6\vklevlanyk</Data>
+            <Data Name='Protocol'>udp</Data>
+            <Data Name='Initiated'>false</Data>
+            <Data Name='SourceIsIpv6'>true</Data>
+            <Data Name='SourceIp'>ff02:0:0:0:0:0:0:fb</Data>
+            <Data Name='SourceHostname'>-</Data>
+            <Data Name='SourcePort'>5353</Data>
+            <Data Name='SourcePortName'>-</Data>
+            <Data Name='DestinationIsIpv6'>true</Data>
+            <Data Name='DestinationIp'>fe80:0:0:0:1415:322a:f492:b2aa</Data>
+            <Data Name='DestinationHostname'>-</Data>
+            <Data Name='DestinationPort'>5353</Data>
+            <Data Name='DestinationPortName'>-</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>3</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>3</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:23:55.9741167Z'/>
+            <EventRecordID>126</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='4936'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:23:54.446</Data>
+            <Data Name='ProcessGuid'>{f03562c7-5a36-6256-2f00-000000004e00}</Data>
+            <Data Name='ProcessId'>2708</Data>
+            <Data Name='Image'>C:\Windows\System32\svchost.exe</Data>
+            <Data Name='User'>NT AUTHORITY\NETWORK SERVICE</Data>
+            <Data Name='Protocol'>udp</Data>
+            <Data Name='Initiated'>false</Data>
+            <Data Name='SourceIsIpv6'>true</Data>
+            <Data Name='SourceIp'>ff02:0:0:0:0:0:0:fb</Data>
+            <Data Name='SourceHostname'>-</Data>
+            <Data Name='SourcePort'>5353</Data>
+            <Data Name='SourcePortName'>-</Data>
+            <Data Name='DestinationIsIpv6'>true</Data>
+            <Data Name='DestinationIp'>fe80:0:0:0:1415:322a:f492:b2aa</Data>
+            <Data Name='DestinationHostname'>-</Data>
+            <Data Name='DestinationPort'>5353</Data>
+            <Data Name='DestinationPortName'>-</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>3</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>3</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:23:55.9741086Z'/>
+            <EventRecordID>125</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='4936'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:23:54.444</Data>
+            <Data Name='ProcessGuid'>{f03562c7-122c-625c-2f15-000000004e00}</Data>
+            <Data Name='ProcessId'>8564</Data>
+            <Data Name='Image'>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</Data>
+            <Data Name='User'>N6\vklevlanyk</Data>
+            <Data Name='Protocol'>udp</Data>
+            <Data Name='Initiated'>false</Data>
+            <Data Name='SourceIsIpv6'>false</Data>
+            <Data Name='SourceIp'>224.0.0.251</Data>
+            <Data Name='SourceHostname'>-</Data>
+            <Data Name='SourcePort'>5353</Data>
+            <Data Name='SourcePortName'>-</Data>
+            <Data Name='DestinationIsIpv6'>false</Data>
+            <Data Name='DestinationIp'>192.168.0.100</Data>
+            <Data Name='DestinationHostname'>-</Data>
+            <Data Name='DestinationPort'>5353</Data>
+            <Data Name='DestinationPortName'>-</Data>
+        </EventData>
+    </Event>
+    <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+        <System>
+            <Provider Name='Microsoft-Windows-Sysmon'
+                      Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+            <EventID>3</EventID>
+            <Version>5</Version>
+            <Level>4</Level>
+            <Task>3</Task>
+            <Opcode>0</Opcode>
+            <Keywords>0x8000000000000000</Keywords>
+            <TimeCreated SystemTime='2022-04-17T13:23:55.9740983Z'/>
+            <EventRecordID>124</EventRecordID>
+            <Correlation/>
+            <Execution ProcessID='11132' ThreadID='4936'/>
+            <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+            <Computer>N6</Computer>
+            <Security UserID='S-1-5-18'/>
+        </System>
+        <EventData>
+            <Data Name='RuleName'>-</Data>
+            <Data Name='UtcTime'>2022-04-17 13:23:54.444</Data>
+            <Data Name='ProcessGuid'>{f03562c7-5a36-6256-2f00-000000004e00}</Data>
+            <Data Name='ProcessId'>2708</Data>
+            <Data Name='Image'>C:\Windows\System32\svchost.exe</Data>
+            <Data Name='User'>NT AUTHORITY\NETWORK SERVICE</Data>
+            <Data Name='Protocol'>udp</Data>
+            <Data Name='Initiated'>false</Data>
+            <Data Name='SourceIsIpv6'>false</Data>
+            <Data Name='SourceIp'>224.0.0.251</Data>
+            <Data Name='SourceHostname'>-</Data>
+            <Data Name='SourcePort'>5353</Data>
+            <Data Name='SourcePortName'>-</Data>
+            <Data Name='DestinationIsIpv6'>false</Data>
+            <Data Name='DestinationIp'>192.168.0.100</Data>
+            <Data Name='DestinationHostname'>-</Data>
+            <Data Name='DestinationPort'>5353</Data>
+            <Data Name='DestinationPortName'>-</Data>
+        </EventData>
+    </Event>
+</Events>

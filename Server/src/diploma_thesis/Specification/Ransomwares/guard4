@@ -1,0 +1,10 @@
+if (Functions.contains event "File Create")
+&& (addr_src = ip) 
+&& ((Functions.contains targetfilename "\\\\[0-9a-zA-Z]+.\\(bat\\|vbs\\)$")
+|| (Functions.contains targetfilename "\\\\ProgramData.\\\\[a-zA-Z]+.\\\\[a-zA-Z]+.\\(exe\\|EXE\\)")) then print_endline ("Alert suspicious file targetfilename= "^targetfilename^" on host "^ip^", port "^port_dst);
+
+(Functions.contains event "File Create")
+&& (addr_src = ip) 
+&& ((Functions.contains targetfilename "\\\\[0-9a-zA-Z]+.\\(bat\\|vbs\\)$")
+|| (Functions.contains targetfilename "\\\\ProgramData.\\\\[a-zA-Z]+.\\\\[a-zA-Z]+.\\(exe\\|EXE\\)"))
+

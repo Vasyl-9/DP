@@ -1,0 +1,12 @@
+avro==1.11.0
+avro-python3==1.9.2.1
+
+fastavro==1.4.7
+confluent-kafka==1.4.0
+kafka==1.3.5
+kafka-python==2.0.2
+
+pathspec==0.8.0
+requests==2.23.0
+
+xmltodict==0.12.0

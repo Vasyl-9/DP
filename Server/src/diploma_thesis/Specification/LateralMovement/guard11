@@ -1,0 +1,3 @@
+if (addr_dst = ipdst) && ((event="5156") || (Functions.contains cmdline "HTran -\\(slave\\|tran\\|remove\\)"))  then print_endline ("Alert Malicious command relay - cmdline="^cmdline);
+
+(addr_dst = ipdst) && ((event="5156") || (Functions.contains cmdline "HTran -\\(slave\\|tran\\|remove\\)"))

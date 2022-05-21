@@ -1,0 +1,18 @@
+if (addr_dst = ipdst) && ((Functions.contains cmdline "bitsadmin") 
+|| (Functions.contains cmdline "\\\\winrm.cmd")
+|| (Functions.contains cmdline "winrm/config/client @\\{TrustedHosts=")
+|| (Functions.contains cmdline "\\\\winrs.exe")
+|| (Functions.contains cmdline "\\\\wmiexec.vbs")
+|| (Functions.contains cmdline "PsExec")
+|| (Functions.contains cmdline "wmic")
+|| (Functions.contains cmdline "\\(/PRIVILEGES\\|call setpriority\\|process where name\\)"))  then print_endline ("Alert remote command execution - cmdline="^cmdline^" from host "^ipdst^" on port "^port_dst);
+
+(addr_dst = ipdst) && ((Functions.contains cmdline "bitsadmin") 
+|| (Functions.contains cmdline "\\\\winrm.cmd")
+|| (Functions.contains cmdline "winrm/config/client @\\{TrustedHosts=")
+|| (Functions.contains cmdline "\\\\winrs.exe")
+|| (Functions.contains cmdline "\\\\wmiexec.vbs")
+|| (Functions.contains cmdline "PsExec")
+|| (Functions.contains cmdline "wmic")
+|| (Functions.contains cmdline "\\(/PRIVILEGES\\|call setpriority\\|process where name\\)"))
+

@@ -1,0 +1,12 @@
+if (Functions.contains event "Process Create")
+&& (addr_src = ip) 
+&& ((Functions.contains cmdline "Temp\\\\.\\([0-9a-f]+\\).\\(exe\\|EXE\\)")
+||(Functions.contains cmdline "\\(Desktop.\\\\[a-zA-Z]+\\|\\(admin\\|ProgramData\\).\\\\[a-zA-Z]+.\\\\[a-zA-Z]+\\).\\(exe\\|bat\\|vbs\\)$")
+|| (Functions.contains cmdline "\\\\Temp/file.vbs")) then print_endline ("Alert suspicious process="^cmdline^" on host "^ip^", port "^port_dst);
+
+
+(Functions.contains event "Process Create")
+&& (addr_src = ip) 
+&& ((Functions.contains cmdline "Temp\\\\.\\([0-9a-f]+\\).\\(exe\\|EXE\\)")
+||(Functions.contains cmdline "\\(Desktop.\\\\[a-zA-Z]+\\|\\(admin\\|ProgramData\\).\\\\[a-zA-Z]+.\\\\[a-zA-Z]+\\).\\(exe\\|bat\\|vbs\\)$")
+|| (Functions.contains cmdline "\\\\Temp/file.vbs"))

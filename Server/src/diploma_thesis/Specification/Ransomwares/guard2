@@ -1,0 +1,16 @@
+if (Functions.contains event "Registry Value Set")
+&& (addr_src = ip) 
+&& (Functions.contains targetobject "HK\\(U\\|LV\\|LM\\|CR\\)\\\\")
+&& ((Functions.contains targetobject "\\\\Run.\\\\[a-zA-Z]+.\\(exe\\|vbs\\|bat\\)")
+||(Functions.contains targetobject "\\\\[A-Za-z]+.\\\\Start")
+||(Functions.contains cmdline "/d 0 /t REG_DWORD /f")) then print_endline ("Alert Registry modif cmdline="^cmdline^",targetobject="^targetobject^" on host "^ip^", port "^port_dst);
+
+
+(Functions.contains event "Registry Value Set")
+&& (addr_src = ip) 
+&& (Functions.contains targetobject "HK\\(U\\|LV\\|LM\\|CR\\)\\\\")
+&& ((Functions.contains targetobject "\\\\Run.\\\\[a-zA-Z]+.\\(exe\\|vbs\\|bat\\)")
+||(Functions.contains targetobject "\\\\[A-Za-z]+.\\\\Start")
+||(Functions.contains cmdline "/d 0 /t REG_DWORD /f"))
+
+

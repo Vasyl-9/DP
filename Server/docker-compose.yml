@@ -1,0 +1,31 @@
+version: '3.7'
+services:
+
+  instance-1:
+    image: backend_diploma_thesis:latest
+    environment:
+      - NAME=instance-1
+      - PARTITION_ID=0
+    network_mode: "host"
+
+  instance-2:
+    image: backend_diploma_thesis:latest
+    environment:
+      - NAME=instance-2
+      - PARTITION_ID=1
+    network_mode: "host"
+
+  instance-3:
+    image: backend_diploma_thesis:latest
+    environment:
+      - NAME=instance-3
+      - PARTITION_ID=2
+    network_mode: "host"
+
+  instance-4:
+    image: backend_diploma_thesis:latest
+    environment:
+      - NAME=instance-4
+      - PARTITION_ID=3
+    network_mode: "host"
+

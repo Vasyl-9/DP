@@ -1,0 +1,27 @@
+{
+  "namespace": "io.dp.vasyl",
+  "type": "record",
+  "name": "Output",
+  "fields": [
+    {
+      "name": "data",
+      "type": "string"
+    },
+    {
+      "name": "specification",
+      "type": "string"
+    },
+    {
+      "name": "version",
+      "type": "int"
+    },
+    {
+      "name": "instance_name",
+      "type": "string"
+    },
+    {
+      "name": "user_id",
+      "type": "string"
+    }
+  ]
+}

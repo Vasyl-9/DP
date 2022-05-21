@@ -1,0 +1,4 @@
+if (addr_dst = ipdst) && ((Functions.contains cmdline "\\(net\\|net1\\)  user") 
+|| (Functions.contains cmdline "icacls"))  then print_endline ("Alert attempted user privilege gain - cmdline="^cmdline^" from host "^ipdst^" on port "^port_dst);
+(addr_dst = ipdst) && ((Functions.contains cmdline "\\(net\\|net1\\)  user") 
+|| (Functions.contains cmdline "icacls")) 

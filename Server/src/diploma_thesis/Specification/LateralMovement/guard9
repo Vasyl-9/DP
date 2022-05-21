@@ -1,0 +1,5 @@
+if (addr_dst = ipdst) && ((Functions.contains cmdline "schtasks /\\(create\\|run\\|delete\\)") 
+|| (Functions.contains image "\\\\taskkill.exe"))  then print_endline ("Alert task command execution - cmdline="^cmdline^",image="^image);
+
+(addr_dst = ipdst) && ((Functions.contains cmdline "schtasks /\\(create\\|run\\|delete\\)") 
+|| (Functions.contains image "\\\\system32\\\\taskkill.exe"))

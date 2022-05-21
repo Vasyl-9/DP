@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  instance-2:
+    image: partition_manager:latest
+    environment:
+      - app.kafka.topic-name=local_security_incident
+      - app.kafka.bootstrap-servers=127.0.0.1:9092
+    network_mode: "host"
